@@ -18,7 +18,8 @@
   },
   "resolutions": {
     "ethers": "^5.7.2",
-    "hardhat-deploy": "^0.12.1"
+    "hardhat-deploy": "^0.12.1",
+    "@openzeppelin/contracts": "^5.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
@@ -72,5 +73,8 @@
   "overrides": {
     "ethers": "^5.7.2",
     "hardhat-deploy": "^0.12.1"
+  },
+  "dependencies": {
+    "@layerzerolabs/oft-evm": "^3.2.0"
   }
 }

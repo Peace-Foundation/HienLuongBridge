@@ -10,11 +10,4 @@
   </p>
 </div>
 
-## Architecture
-
-```mermaid
-graph TD;
-    HienLuong --> Bridge;
-    HienLuong --> Lending;
-    HienLuong --> Staking;
-```
+## HienLuong Bridge

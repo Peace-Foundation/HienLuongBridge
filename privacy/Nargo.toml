@@ -1,0 +1,6 @@
+[package]
+name = "privacy"
+type = "bin"
+authors = [""]
+
+[dependencies]

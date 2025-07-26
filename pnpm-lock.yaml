@@ -11,6 +11,10 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      '@layerzerolabs/oft-evm':
+        specifier: ^3.2.0
+        version: 3.2.0(vfongdpdt3mxcybrxcby34vhwy)
     devDependencies:
       '@babel/core':
         specifier: ^7.23.9
