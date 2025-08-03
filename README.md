@@ -1,20 +1,22 @@
 <div align="center">
   <a href="https://github.com/Peace-Foundation">
-    <img alt="LayerZero" style="width: 20%" src="/assets/images/hien_luong_bridge_with_text_logo.png"/>
+    <img alt="Hiền Lương Bridge" style="width: 20%" src="/assets/images/hien_luong_bridge_with_text_logo.png"/>
   </a>
 
-  <h1>Hiền Lương - Hien Luong Bridge</h1>
+  <h1>Hiền Lương Bridge</h1>
 
   <p>
-    <strong>Cross Chain Protocol</strong>
+    <strong>Cross-Chain Protocol</strong>
   </p>
 
-  <!-- <p>
-    <a href="https://docs.layerzero.network/v2"><img alt="Tutorials" src="https://img.shields.io/badge/docs-tutorials-blueviolet" /></a>
-  </p> -->
+  <p>
+    <a href="./documentation_index.md"><img alt="Documentation" src="https://img.shields.io/badge/docs-documentation-blueviolet" /></a>
+    <a href="./docs/architecture.md"><img alt="Architecture" src="https://img.shields.io/badge/docs-architecture-orange" /></a>
+    <a href="./whitepapper/whitepaper.md"><img alt="Whitepaper" src="https://img.shields.io/badge/docs-whitepaper-blue" /></a>
+  </p>
 </div>
 
-Hien Luong is a Cross chain Protocol to connect blockchains to manage your digital assets anywhere in blockchains.
+Hiền Lương Bridge is a comprehensive cross-chain protocol built on LayerZero that enables seamless asset transfer and interoperability across multiple blockchain networks. Named after the historic bridge that once connected North and South Vietnam, our protocol symbolizes connection and unity in the fragmented blockchain landscape.
 
 ## Requirements
 
@@ -62,3 +64,25 @@ pnpm hardhat lz:deploy --tags MyOApp
 ```
 
 Select all the chains you want to deploy the OApp to.
+
+## Documentation
+
+Comprehensive documentation for the Hiền Lương Bridge protocol is available in the following locations:
+
+- [Documentation Index](./documentation_index.md) - Main index of all documentation
+- [Project Overview](./docs/project_overview.md) - Introduction to the protocol
+- [Architecture](./docs/architecture.md) - Technical architecture details
+- [Bridge Documentation](./docs/bridge.md) - Bridge functionality
+- [Lending Documentation](./docs/lending.md) - Cross-chain lending
+- [Staking Documentation](./docs/staking.md) - Staking mechanisms
+- [Whitepaper](./whitepapper/whitepaper.md) - Technical whitepaper
+
+### Key Components
+
+The Hiền Lương Bridge protocol consists of three main components:
+
+1. **Bridge** - Core cross-chain asset bridging functionality for both fungible and non-fungible tokens
+2. **Lending** - Cross-chain lending protocol enabling lending and borrowing across different blockchains
+3. **Staking** - Staking mechanisms for protocol participation and governance
+
+See the [documentation index](./documentation_index.md) for complete details on all components.
